@@ -13,7 +13,7 @@ while True:
                                 print('1', end = '')
                             else:
                                 print('3', end = '')
-                    print('\n')
+                    print('\n' ,end = '')
                     x -= 1
 
                 except IndexError:
