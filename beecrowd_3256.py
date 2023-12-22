@@ -25,7 +25,6 @@ def soldiers(n, m):
         print(counter_even_list)
     print(*odd_list)
     print(*even_list)
-    
 
 
 #read input

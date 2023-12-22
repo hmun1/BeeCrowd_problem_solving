@@ -12,7 +12,6 @@ def elivator_test(floor, start, goal, up, down):
     else:
         print('use the stairs')
 
-
 floor, start, goal, up, down = map(int, input().split())
 if (goal <= floor<= 1000000 and 1 <= start) and (0 <= up and down <= 1000000):
     elivator_test(floor, start, goal, up, down)
